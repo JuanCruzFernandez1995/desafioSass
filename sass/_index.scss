@@ -1,0 +1,40 @@
+nav{
+    ul{
+        padding: 1em;
+        li{
+            display: inline-block;
+            position: relative;
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: 'Lexend Deca' , sans-serif;
+                font-weight: 200;
+                font-size: 15px;
+                padding: 0.5em;
+            }
+        }
+    }
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-areas: "texto imagen";
+    grid-template-columns: 20% 60%;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    .cuerpo__texto{
+        margin: 10px;
+        grid-area: texto;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    .cuerpo__img{
+        width: 60%;
+        margin-left: 100px;
+        grid-area: imagen;
+        border: solid 1px black;
+    }
+}
