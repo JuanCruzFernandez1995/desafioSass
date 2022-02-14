@@ -12,6 +12,24 @@ header .header__bloquetitulo {
     font-family: 'Lexend Deca' , sans-serif;
     font-size: 15px; }
 
+header nav ul {
+  padding: 1em; }
+  header nav ul li {
+    display: inline-block;
+    position: relative; }
+    header nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-family: 'Lexend Deca' , sans-serif;
+      font-weight: 200;
+      font-size: 15px;
+      padding: 0.5em;
+      transition: all 300ms ease; }
+      header nav ul li a:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        background: #F9F6E2; }
+
 footer {
   background-color: #4395C3;
   padding: 10px; }
@@ -58,19 +76,6 @@ footer {
       color: #0df053;
       background: white; }
 
-nav ul {
-  padding: 1em; }
-  nav ul li {
-    display: inline-block;
-    position: relative; }
-    nav ul li a {
-      text-decoration: none;
-      color: black;
-      font-family: 'Lexend Deca' , sans-serif;
-      font-weight: 200;
-      font-size: 15px;
-      padding: 0.5em; }
-
 .cuerpo {
   display: grid;
   grid-template-areas: "texto imagen";
@@ -90,6 +95,142 @@ nav ul {
     margin-left: 100px;
     grid-area: imagen;
     border: solid 1px black; }
+
+.formulario {
+  font-family: 'Open Sans' , sans-serif;
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .formulario form {
+    margin: 100px auto 100px auto; }
+    .formulario form .formulario__fieldset {
+      background-color: #f4f1ed;
+      color: firebrick;
+      border-color: darkgoldenrod;
+      border: 9px groove internal value;
+      border-radius: 7px;
+      width: 400px; }
+      .formulario form .formulario__fieldset .formulario__legend {
+        color: darkblue;
+        font-weight: bold;
+        text-align: center; }
+      .formulario form .formulario__fieldset div .formulario__texto {
+        font-weight: 300;
+        font-size: 13px; }
+
+.cuerpo__faq {
+  display: flex;
+  font-size: 16px;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 10em 3em; }
+  .cuerpo__faq .cuerpo__faqcontenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 10em 3em; }
+    .cuerpo__faq .cuerpo__faqcontenedor ul {
+      list-style: none;
+      font-family: "Open Sans";
+      font-size: 1em;
+      font-weight: bolder;
+      text-align: center; }
+      .cuerpo__faq .cuerpo__faqcontenedor ul li {
+        font-weight: 300;
+        font-size: 0.8em; }
+
+.cuerpo__nosotros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "texto video";
+  justify-content: center;
+  grid-gap: 10px;
+  margin: 10em 1em;
+  width: 100%; }
+  .cuerpo__nosotros .cuerpo__nosotros__texto {
+    padding: 20px;
+    font-family: "Open Sans";
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    align-self: center;
+    grid-area: texto; }
+  .cuerpo__nosotros .cuerpo__nosotros__video {
+    margin: 10px;
+    width: 80%;
+    grid-area: video; }
+
+.cuerpo__servicios {
+  display: grid;
+  margin: 5em 2em;
+  font-size: 10px;
+  grid-template-columns: "1fr 1fr";
+  grid-template-rows: "1fr 1fr";
+  grid-template-areas: "servicios1 servicios2" "servicios3 servicios4";
+  justify-content: space-between;
+  align-content: center;
+  grid-gap: 4em;
+  width: 90%; }
+  .cuerpo__servicios .cuerpo__servicios1 {
+    grid-area: servicios1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .cuerpo__servicios .cuerpo__servicios1 img {
+      width: 50em; }
+    .cuerpo__servicios .cuerpo__servicios1 p {
+      color: black;
+      font-family: "Open Sans";
+      font-weight: 300;
+      font-size: 1.2em;
+      text-align: center;
+      padding-bottom: 0.5em; }
+  .cuerpo__servicios .cuerpo__servicios2 {
+    grid-area: servicios2;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .cuerpo__servicios .cuerpo__servicios2 img {
+      width: 50em; }
+    .cuerpo__servicios .cuerpo__servicios2 p {
+      color: black;
+      font-family: "Open Sans";
+      font-weight: 300;
+      font-size: 1.2em;
+      text-align: center;
+      padding-bottom: 0.5em; }
+  .cuerpo__servicios .cuerpo__servicios3 {
+    grid-area: servicios3;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .cuerpo__servicios .cuerpo__servicios3 img {
+      width: 50em; }
+    .cuerpo__servicios .cuerpo__servicios3 p {
+      color: black;
+      font-family: "Open Sans";
+      font-weight: 300;
+      font-size: 1.2em;
+      text-align: center;
+      padding-bottom: 0.5em; }
+  .cuerpo__servicios .cuerpo__servicios4 {
+    grid-area: servicios4;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .cuerpo__servicios .cuerpo__servicios4 img {
+      width: 50em; }
+    .cuerpo__servicios .cuerpo__servicios4 p {
+      color: black;
+      font-family: "Open Sans";
+      font-weight: 300;
+      font-size: 1.2em;
+      text-align: center;
+      padding-bottom: 0.5em; }
 
 /*MEDIAS INDEX*/
 @media (max-width: 768px) {
@@ -121,8 +262,95 @@ nav ul {
       font-weight: 200;
       font-size: 15px;
       padding: 0.5em;
-      padding-left: 0; } }
+      padding-left: 0; }
+  .formulario form .formulario__fieldset {
+    background-color: #f4f1ed;
+    color: firebrick;
+    border-color: darkgoldenrod;
+    border: 9px groove internal value;
+    border-radius: 7px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .cuerpo__faq .cuerpo__faqcontenedor {
+    display: flex;
+    flex-direction: row;
+    padding: 10em 5em;
+    justify-content: center; }
+  .cuerpo__nosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "texto" " video";
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
+    width: 80%; }
+    .cuerpo__nosotros .cuerpo__nosotros__texto {
+      font-family: "Open Sans";
+      font-weight: lighter;
+      font-size: 13px;
+      grid-area: texto;
+      align-self: center;
+      margin-left: 15%;
+      text-align: center; }
+    .cuerpo__nosotros .cuerpo__nosotros__video {
+      width: 100%;
+      grid-area: video;
+      align-self: center;
+      margin: 0 30px; }
+  .cuerpo__servicios {
+    display: grid;
+    margin: 5em 2em;
+    font-size: 10px;
+    grid-template-columns: "1fr";
+    grid-template-rows: "1fr 1fr 1fr 1fr";
+    grid-template-areas: "servicios1"  "servicios2" "servicios3"  "servicios4";
+    justify-content: space-between;
+    align-content: center;
+    grid-gap: 4em;
+    width: 90%; }
+    .cuerpo__servicios .cuerpo__servicios1 img {
+      width: 40em; }
+    .cuerpo__servicios .cuerpo__servicios2 img {
+      width: 40em; }
+    .cuerpo__servicios .cuerpo__servicios3 img {
+      width: 40em; }
+    .cuerpo__servicios .cuerpo__servicios4 img {
+      width: 40em; } }
 
 @media (max-width: 320px) {
   .cuerpo .cuerpo__img {
-    display: none; } }
+    display: none; }
+  .formulario {
+    justify-content: center;
+    width: 100%; }
+  .cuerpo__nosotros {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .cuerpo__nosotros .cuerpo__nosotros__texto {
+      display: none; }
+    .cuerpo__nosotros .cuerpo__nosotros__video {
+      width: 80%;
+      align-self: center;
+      padding-right: 10%; }
+  .cuerpo__servicios {
+    grid-gap: 0.3em; }
+    .cuerpo__servicios .cuerpo__servicios1 p {
+      display: none; }
+    .cuerpo__servicios .cuerpo__servicios1 img {
+      width: 90%; }
+    .cuerpo__servicios .cuerpo__servicios2 p {
+      display: none; }
+    .cuerpo__servicios .cuerpo__servicios2 img {
+      width: 90%; }
+    .cuerpo__servicios .cuerpo__servicios3 p {
+      display: none; }
+    .cuerpo__servicios .cuerpo__servicios3 img {
+      width: 90%; }
+    .cuerpo__servicios .cuerpo__servicios4 p {
+      display: none; }
+    .cuerpo__servicios .cuerpo__servicios4 img {
+      width: 90%; } }

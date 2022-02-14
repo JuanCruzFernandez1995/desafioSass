@@ -1,3 +1,8 @@
-@import "header";
-@import "index";
-@import "medias";
+@import "components/variables";
+@import "base/comun";
+@import "base/index";
+@import "base/contacto";
+@import "base/faq";
+@import "base/nosotros";
+@import "base/servicios";
+@import "components/medias";

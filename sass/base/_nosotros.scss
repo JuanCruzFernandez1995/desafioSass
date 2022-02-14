@@ -1,0 +1,24 @@
+.cuerpo__nosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "texto video";
+    justify-content: center;
+    grid-gap: 10px;
+    margin: 10em 1em;
+    width: 100%;
+    .cuerpo__nosotros__texto{
+        padding: 20px;
+        font-family: "Open Sans";
+        font-weight: lighter;
+        font-size: 15px;
+        text-align: center;
+        align-self: center;
+        grid-area: texto;
+    }
+    .cuerpo__nosotros__video{
+        margin: 10px;
+        width: 80%;
+        grid-area: video;
+    }
+}

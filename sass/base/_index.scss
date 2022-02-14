@@ -1,21 +1,3 @@
-nav{
-    ul{
-        padding: 1em;
-        li{
-            display: inline-block;
-            position: relative;
-            a{
-                text-decoration: none;
-                color: black;
-                font-family: 'Lexend Deca' , sans-serif;
-                font-weight: 200;
-                font-size: 15px;
-                padding: 0.5em;
-            }
-        }
-    }
-}
-
 .cuerpo{
     display: grid;
     grid-template-areas: "texto imagen";
