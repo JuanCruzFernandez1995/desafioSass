@@ -1,34 +1,45 @@
-header .header__bloquetitulo {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
   display: flex;
   flex-direction: row;
-  align-items: baseline; }
-  header .header__bloquetitulo .header__titulo {
-    font-family: 'Lato', sans-serif;
-    padding-right: 1em; }
-    header .header__bloquetitulo .header__titulo a {
-      text-decoration: none;
-      color: black; }
-  header .header__bloquetitulo .header__subtitulo {
-    font-family: 'Lexend Deca' , sans-serif;
-    font-size: 15px; }
-
-header nav ul {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #4395C3;
   padding: 1em; }
-  header nav ul li {
-    display: inline-block;
-    position: relative; }
-    header nav ul li a {
-      text-decoration: none;
-      color: black;
+  header .header__bloquetitulo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline; }
+    header .header__bloquetitulo .header__titulo {
+      font-family: 'Lato', sans-serif;
+      padding-right: 1em; }
+      header .header__bloquetitulo .header__titulo a {
+        text-decoration: none;
+        color: black; }
+    header .header__bloquetitulo .header__subtitulo {
       font-family: 'Lexend Deca' , sans-serif;
-      font-weight: 200;
-      font-size: 15px;
-      padding: 0.5em;
-      transition: all 300ms ease; }
-      header nav ul li a:hover {
-        transform: scale(1.1);
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-        background: #F9F6E2; }
+      font-size: 15px; }
+  header nav ul {
+    padding: 1em; }
+    header nav ul li {
+      display: inline-block;
+      position: relative; }
+      header nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Lexend Deca' , sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        padding: 0.5em;
+        transition: all 300ms ease; }
+        header nav ul li a:hover {
+          transform: scale(1.1);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+          background: #F9F6E2; }
 
 footer {
   background-color: #4395C3;
@@ -75,6 +86,9 @@ footer {
       text-decoration: none;
       color: #0df053;
       background: white; }
+
+body {
+  background-color: #F9F6E2; }
 
 .cuerpo {
   display: grid;

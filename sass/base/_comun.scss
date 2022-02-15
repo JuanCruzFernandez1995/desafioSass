@@ -1,4 +1,15 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #4395C3;
+    padding: 1em;
     .header__bloquetitulo{
         display: flex;
         flex-direction: row;
@@ -96,4 +107,8 @@ footer{
             }
         }
     }
+}
+
+body{
+    background-color: #F9F6E2;
 }
