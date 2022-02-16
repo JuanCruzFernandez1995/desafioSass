@@ -129,29 +129,32 @@ body {
         font-weight: 300;
         font-size: 13px; }
 
-.cuerpo__faq {
-  display: flex;
-  font-size: 16px;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  padding: 10em 3em; }
-  .cuerpo__faq .cuerpo__faqcontenedor {
+/*.cuerpo__faq{
     display: flex;
+    font-size: 16px;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    padding: 10em 3em; }
-    .cuerpo__faq .cuerpo__faqcontenedor ul {
-      list-style: none;
-      font-family: "Open Sans";
-      font-size: 1em;
-      font-weight: bolder;
-      text-align: center; }
-      .cuerpo__faq .cuerpo__faqcontenedor ul li {
-        font-weight: 300;
-        font-size: 0.8em; }
-
+    padding: 10em 3em;
+    .cuerpo__faqcontenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        padding: 10em 3em;
+        ul{
+            list-style: none;
+            font-family: "Open Sans";
+            font-size: 1em;
+            font-weight: bolder;
+            text-align: center;
+            li{
+                font-weight: 300;
+                font-size: 0.8em;
+            }
+        }
+    }
+}*/
 .cuerpo__nosotros {
   display: grid;
   grid-template-columns: 1fr 1fr;
