@@ -8,20 +8,24 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: none;
   background-color: #4395C3;
   padding: 1em; }
   header .header__bloquetitulo {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: strech;
     align-items: baseline; }
     header .header__bloquetitulo .header__titulo {
-      font-family: 'Lato', sans-serif;
+      font-family: 'Open Sans';
+      font-size: 32px;
       padding-right: 1em; }
       header .header__bloquetitulo .header__titulo a {
         text-decoration: none;
         color: black; }
     header .header__bloquetitulo .header__subtitulo {
-      font-family: 'Lexend Deca' , sans-serif;
+      font-family: 'Lexend Deca';
       font-size: 15px; }
   header nav ul {
     padding: 1em; }
@@ -31,7 +35,7 @@ header {
       header nav ul li a {
         text-decoration: none;
         color: black;
-        font-family: 'Lexend Deca' , sans-serif;
+        font-family: 'Lexend Deca';
         font-weight: 200;
         font-size: 15px;
         padding: 0.5em;
@@ -50,7 +54,7 @@ header {
     color: black;
     font-size: 15px; }
   .pie .pie__derechos {
-    font-family: 'Open Sans' , sans-serif;
+    font-family: 'Open Sans';
     font-weight: 300; }
   .pie .pie__wsp .float {
     position: fixed;
