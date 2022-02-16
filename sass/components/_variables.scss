@@ -1,3 +1,25 @@
 $color-principal: #F9F6E2;
 $color-secundario: #4395C3;
 $font-principal: "Open sans";
+
+
+//Mapas//
+
+$breakpoints: (
+  xs: 0,
+  sm: 320px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+//Extend//
+
+%serviciosP{
+            color: black;
+            font-family: "Open Sans";
+            font-weight: 300;
+            font-size: 1.2em;
+            text-align: center;
+            padding-bottom: 0.5em;
+}

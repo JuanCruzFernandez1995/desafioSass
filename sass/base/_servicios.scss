@@ -19,12 +19,7 @@
             width: 50em;
         }
         p{
-            color: black;
-            font-family: "Open Sans";
-            font-weight: 300;
-            font-size: 1.2em;
-            text-align: center;
-            padding-bottom: 0.5em;
+            @extend %serviciosP;
         }
     }
     .cuerpo__servicios2{
@@ -36,12 +31,7 @@
             width: 50em;
         }
         p{
-            color: black;
-            font-family: "Open Sans";
-            font-weight: 300;
-            font-size: 1.2em;
-            text-align: center;
-            padding-bottom: 0.5em;
+            @extend %serviciosP;
         }
     }
     .cuerpo__servicios3{
@@ -53,12 +43,7 @@
             width: 50em;
         }
         p{
-            color: black;
-            font-family: "Open Sans";
-            font-weight: 300;
-            font-size: 1.2em;
-            text-align: center;
-            padding-bottom: 0.5em;
+            @extend %serviciosP;
         }
     }
     .cuerpo__servicios4{
@@ -70,12 +55,7 @@
             width: 50em;
         }
         p{
-            color: black;
-            font-family: "Open Sans";
-            font-weight: 300;
-            font-size: 1.2em;
-            text-align: center;
-            padding-bottom: 0.5em;
+            @extend %serviciosP;
         }
     }
 }
