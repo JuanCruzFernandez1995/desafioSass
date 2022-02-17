@@ -9,7 +9,7 @@
     width: 100%;
     .cuerpo__nosotros__texto{
         padding: 20px;
-        font-family: "Opens Sans";
+        font-family: map-get($parrafo, fuente);
         font-weight: lighter;
         font-size: 15px;
         text-align: center;

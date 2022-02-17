@@ -3,7 +3,6 @@ $color-secundario: #4395C3;
 $font-principal: "Open sans";
 
 
-
 //Extend//
 
 %serviciosP{
@@ -14,3 +13,13 @@ $font-principal: "Open sans";
             text-align: center;
             padding-bottom: 0.5em;
 }
+
+
+$parrafo: (
+  fuente: "Open Sans",
+  tamaño: 15px,
+  grosor1: Lighter,
+  grosor2: Bolder,
+  tamaño2: 10px,
+  fuente2: "Lato"
+)
