@@ -51,6 +51,9 @@ header{
 .pie{
     background-color: $color-secundario;
     padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
     a{
         font-family: 'Open Sans';
         text-decoration: none;

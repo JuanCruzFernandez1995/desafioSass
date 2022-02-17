@@ -1,6 +1,6 @@
 /*MEDIAS INDEX*/
 
-/*@media (max-width: 768px){
+@media (max-width: 768px){
     .header{
         display: flex;
         flex-direction: column;
@@ -197,10 +197,10 @@
             }
         }
     }
-}*/
+}
 
 
-@mixin breakpoint($size) {
+/*@mixin breakpoint($size) {
     @if map-has-key($breakpoints, 768px) {
       @media (max-width: #{map-get($breakpoints, 768px)}) {
         .header{
@@ -401,4 +401,4 @@
             }
           }
       }
-}
+}*/
