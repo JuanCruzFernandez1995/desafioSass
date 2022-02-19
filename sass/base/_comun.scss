@@ -13,6 +13,10 @@ header{
             font-family:'Open Sans';
             font-size: 32px;
             padding-right: 1em;
+            margin-top: 0;
+            font-weight: bold;
+            margin-bottom: 0;
+            line-height: 1.2;
             a{
                 text-decoration: none;
                 color: black;
@@ -21,6 +25,9 @@ header{
         .header__subtitulo{
             font-family: 'Lexend Deca'; 
             font-size: 15px;
+            margin-bottom: 0.5rem;
+            font-weight: bolder;
+            line-height: 1.2;
         }
     }
     nav{
@@ -59,10 +66,14 @@ header{
         text-decoration: none;
         color: black;
         font-size: 15px;
+        font-weight: bolder;
      }
     .pie__derechos{
         font-family: 'Open Sans';
         font-weight: 300;
+        font-size: 10.72px;
+        margin-bottom: 0;
+        line-height: normal;
     }
     .pie__wsp{
         .float {

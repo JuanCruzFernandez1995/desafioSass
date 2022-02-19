@@ -28,13 +28,20 @@ header {
     header .header__bloquetitulo .header__titulo {
       font-family: 'Open Sans';
       font-size: 32px;
-      padding-right: 1em; }
+      padding-right: 1em;
+      margin-top: 0;
+      font-weight: bold;
+      margin-bottom: 0;
+      line-height: 1.2; }
       header .header__bloquetitulo .header__titulo a {
         text-decoration: none;
         color: black; }
     header .header__bloquetitulo .header__subtitulo {
       font-family: 'Lexend Deca';
-      font-size: 15px; }
+      font-size: 15px;
+      margin-bottom: 0.5rem;
+      font-weight: bolder;
+      line-height: 1.2; }
   header nav ul {
     padding: 1em; }
     header nav ul li {
@@ -63,10 +70,14 @@ header {
     font-family: 'Open Sans';
     text-decoration: none;
     color: black;
-    font-size: 15px; }
+    font-size: 15px;
+    font-weight: bolder; }
   .pie .pie__derechos {
     font-family: 'Open Sans';
-    font-weight: 300; }
+    font-weight: 300;
+    font-size: 10.72px;
+    margin-bottom: 0;
+    line-height: normal; }
   .pie .pie__wsp .float {
     position: fixed;
     width: 60px;
@@ -138,22 +149,25 @@ body {
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  padding: 10em 3em; }
-  .cuerpo__faq .cuerpo__faqcontenedor {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    padding: 10em 3em; }
-    .cuerpo__faq .cuerpo__faqcontenedor ul {
-      list-style: none;
-      font-family: "Open Sans";
-      font-size: 1em;
-      font-weight: bolder;
-      text-align: center; }
-      .cuerpo__faq .cuerpo__faqcontenedor ul li {
-        font-weight: 300;
-        font-size: 0.8em; }
+  padding: 10em 3em;
+  /*.cuerpo__faqcontenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        padding: 10em 3em;
+        ul{
+            list-style: none;
+            font-family: "Open Sans";
+            font-size: 1em;
+            font-weight: bolder;
+            text-align: center;
+            li{
+                font-weight: 300;
+                font-size: 0.8em;
+            }
+        }
+    }*/ }
 
 .cuerpo__nosotros {
   display: grid;
