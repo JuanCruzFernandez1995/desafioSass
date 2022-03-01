@@ -120,28 +120,48 @@ body {
     grid-area: imagen;
     border: solid 1px black; }
 
-.formulario {
-  font-family: 'Open Sans' , sans-serif;
-  padding: 5em;
+main {
+  font-family: "Open sans";
   display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  .formulario form {
-    margin: 100px auto 100px auto; }
-    .formulario form .formulario__fieldset {
-      background-color: #f4f1ed;
-      color: firebrick;
-      border-color: darkgoldenrod;
-      border: 9px groove internal value;
-      border-radius: 7px;
-      width: 400px; }
-      .formulario form .formulario__fieldset .formulario__legend {
-        color: darkblue;
-        font-weight: bold;
-        text-align: center; }
-      .formulario form .formulario__fieldset div .formulario__texto {
-        font-weight: 300;
-        font-size: 13px; }
+  padding: 10% 0; }
+  main .form {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    height: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: auto; }
+    main .form .form__container {
+      width: 100%;
+      display: grid;
+      gap: 1em;
+      grid-auto-columns: 100%; }
+      main .form .form__container .form__titulo {
+        text-align: center;
+        font-size: 1.9rem;
+        font-weight: bold; }
+      main .form .form__container .form__input {
+        font-family: inherit;
+        font-size: 1rem;
+        padding: .8em 1em;
+        outline: none;
+        border: none;
+        border: 1px solid #bbb0b0;
+        border-radius: 0.2em; }
+      main .form .form__container .form__input--message {
+        resize: none;
+        padding: 1.8em 1em;
+        margin-bottom: .5em; }
+      main .form .form__container .form__cta {
+        font-family: inherit;
+        color: white;
+        background-color: #4395C3;
+        border: none;
+        font-weight: 400;
+        font-size: 1rem;
+        padding: .7em 0;
+        border-radius: .2em;
+        cursor: pointer; }
 
 .cuerpo__faq {
   display: flex;
@@ -150,24 +170,7 @@ body {
   justify-content: center;
   align-content: center;
   padding: 10em 3em;
-  /*.cuerpo__faqcontenedor{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
-        padding: 10em 3em;
-        ul{
-            list-style: none;
-            font-family: "Open Sans";
-            font-size: 1em;
-            font-weight: bolder;
-            text-align: center;
-            li{
-                font-weight: 300;
-                font-size: 0.8em;
-            }
-        }
-    }*/ }
+}
 
 .cuerpo__nosotros {
   display: grid;
@@ -197,7 +200,8 @@ body {
   font-size: 10px;
   grid-template-columns: "1fr 1fr";
   grid-template-rows: "1fr 1fr";
-  grid-template-areas: "servicios1 servicios2" "servicios3 servicios4";
+  grid-template-areas: "servicios1 servicios2"
+ "servicios3 servicios4";
   justify-content: space-between;
   align-content: center;
   grid-gap: 4em;
@@ -291,7 +295,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "texto" " video";
+    grid-template-areas: "texto"
+ " video";
     justify-content: center;
     align-content: center;
     grid-gap: 10px;
@@ -315,7 +320,10 @@ body {
     font-size: 10px;
     grid-template-columns: "1fr";
     grid-template-rows: "1fr 1fr 1fr 1fr";
-    grid-template-areas: "servicios1"  "servicios2" "servicios3"  "servicios4";
+    grid-template-areas: "servicios1" 
+ "servicios2"
+ "servicios3" 
+ "servicios4";
     justify-content: space-between;
     align-content: center;
     grid-gap: 4em;

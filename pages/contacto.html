@@ -55,31 +55,17 @@
             </header>
 
 
-        <main class="formulario">
-            <form>
-                <fieldset class="formulario__fieldset">
-                    <legend class="formulario__legend">Complete el formulario </legend>
-                    <div>
-                        <label class="formulario__texto" for="nombre">Nombre y Apellido </label>
-                        <input type="text" placeholder="Complete su nombre y apellido" required>
-                    </div>
-                    <div>
-                        <label class="formulario__texto" for="dni">DNI </label>
-                        <input type="number" placeholder="Ingrese su DNI" required>
-                    </div>
-                    <div>
-                        <label class="formulario__texto" for="telefono">Ingrese su numero de telefono </label>
-                        <input type="number" placeholder="Ingrese un numero de contacto">
-                    </div>
-                    <div>
-                        <label class="formulario__texto" for="email">Ingrese su email </label>
-                        <input type="email" placeholder="Ingrese su correo electronico" required>
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar">
-                    </div>
-                </fieldset>
+        <main>
+            <form class="form">
+                <div class="form__container">
+                    <h2 class="form__titulo">
+                        Contáctanos
+                    </h2>
+                    <input type="text" class="form__input" placeholder="Nombre y Apellido:">
+                    <input type="email" class="form__input" placeholder="Email:">
+                    <textarea class="form__input form__input--message" placeholder="Mensaje:"></textarea>
+                    <input type="submit" value="Enviar" class="form__cta">
+                </div>
             </form> 
         </main>
 
