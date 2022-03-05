@@ -1,7 +1,7 @@
 .cuerpo__servicios{
     display: grid;
-    margin: 5em 2em;
-    font-size: 10px;
+    padding: 5em 2em;
+    font-size: .7rem;
     grid-template-columns: "1fr 1fr";
     grid-template-rows: "1fr 1fr";
     grid-template-areas: "servicios1 servicios2"

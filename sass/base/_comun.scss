@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    @include flexible( row, wrap, space-between, none );
+    @include flexible( row, wrap, space-between, center );
     background-color: $color-secundario;
     padding: 1em;
     .header__bloquetitulo{
@@ -58,7 +58,7 @@ header{
 .pie{
     background-color: $color-secundario;
     padding: 10px;
-    position: fixed;
+    position: relative;
     bottom: 0px;
     width: 100%;
     a{
