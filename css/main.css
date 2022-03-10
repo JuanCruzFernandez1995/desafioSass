@@ -225,15 +225,15 @@ main {
 .cuerpo__nosotros {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "texto video" "carrusel carrusel" "carrusel carrusel";
+  grid-template-rows: 1fr;
+  grid-template-areas: "texto video" "carrusel carrusel";
   justify-content: center;
   align-items: center;
-  grid-gap: .5em;
-  padding: 3em 1em;
+  grid-gap: 1em;
+  padding: 2em 1em;
   width: 100%; }
   .cuerpo__nosotros .cuerpo__nosotros__texto {
-    padding: 20px auto;
+    padding: 1em auto;
     font-family: "Open Sans";
     font-weight: lighter;
     font-size: 15px;
@@ -246,7 +246,11 @@ main {
     grid-area: video; }
   .cuerpo__nosotros .cuerpo__nosotros__carrusel {
     grid-area: carrusel;
-    width: 100%; }
+    width: 70%;
+    justify-self: center;
+    border: .2em solid #4395C3;
+    border-radius: .1em;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
 
 .cuerpo__servicios {
   display: grid;
