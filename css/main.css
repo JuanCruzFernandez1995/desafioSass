@@ -22,16 +22,15 @@ header {
   header .header__bloquetitulo {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: strech;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: baseline; }
     header .header__bloquetitulo .header__titulo {
       font-family: 'Open Sans';
       font-size: 32px;
       padding-right: 1em;
-      margin-top: 0;
+      margin: 0;
       font-weight: bold;
-      margin-bottom: 0;
       line-height: normal; }
       header .header__bloquetitulo .header__titulo a {
         text-decoration: none;
@@ -45,8 +44,7 @@ header {
   header nav ul {
     padding: 1em; }
     header nav ul li {
-      display: inline-block;
-      position: relative; }
+      display: inline-block; }
       header nav ul li a {
         text-decoration: none;
         color: black;

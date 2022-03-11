@@ -8,14 +8,13 @@ header{
     background-color: $color-secundario;
     padding: 1em;
     .header__bloquetitulo{
-        @include flexible( row, nowrap, strech, baseline );
+        @include flexible( row, wrap, space-between, baseline );
         .header__titulo{
             font-family:'Open Sans';
             font-size: 32px;
             padding-right: 1em;
-            margin-top: 0;
+            margin: 0;
             font-weight: bold;
-            margin-bottom: 0;
             line-height: normal;
             a{
                 text-decoration: none;
@@ -35,7 +34,6 @@ header{
             padding: 1em;
             li{
                 display: inline-block;
-                position: relative;
                 a{
                     text-decoration: none;
                     color: black;
